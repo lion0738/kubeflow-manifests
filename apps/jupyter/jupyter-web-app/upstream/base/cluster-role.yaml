@@ -51,9 +51,18 @@ rules:
   resources:
   - pods
   - pods/log
+  - pods/exec
   verbs:
   - list
   - get
+  - create
+- apiGroups:
+  - ""
+  resources:
+  - services
+  verbs:
+  - get
+  - create
 
 ---
 
