@@ -38,6 +38,7 @@ rules:
   - nodes
   verbs:
   - list
+  - get
 - apiGroups:
   - storage.k8s.io
   resources:
