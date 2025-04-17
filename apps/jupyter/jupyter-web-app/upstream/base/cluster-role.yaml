@@ -64,6 +64,12 @@ rules:
   verbs:
   - get
   - create
+- apiGroups:
+  - security.istio.io
+  resources:
+  - authorizationpolicies
+  verbs:
+  - create
 
 ---
 
