@@ -70,6 +70,16 @@ rules:
   - authorizationpolicies
   verbs:
   - create
+- apiGroups:
+  - apps
+  resources:
+  - deployment
+  verbs:
+  - list
+  - get
+  - create
+  - patch
+  - delete
 
 ---
 
