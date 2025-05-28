@@ -96,7 +96,7 @@ spawnerFormDefaults:
 
     # a factor by which to multiply the CPU request calculate the cpu limit
     # (to disable cpu limits, set as "none")
-    limitFactor: "1.2"
+    limitFactor: "1.0"
 
   ################################################################
   # Memory Resources
@@ -109,7 +109,7 @@ spawnerFormDefaults:
 
     # a factor by which to multiply the memory request calculate the memory limit
     # (to disable memory limits, set as "none")
-    limitFactor: "1.2"
+    limitFactor: "1.0"
 
   ################################################################
   # GPU/Device-Plugin Resources
