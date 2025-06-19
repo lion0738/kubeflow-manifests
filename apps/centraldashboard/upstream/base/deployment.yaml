@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: centraldashboard
-        image: docker.io/lion0738/centraldashboard:v1.10.0
+        image: knu-kubeflow.duckdns.org:30500/centraldashboard:v1.10.0
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:

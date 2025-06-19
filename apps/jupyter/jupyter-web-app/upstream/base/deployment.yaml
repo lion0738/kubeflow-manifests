@@ -8,7 +8,7 @@ spec:
     spec:
       containers:
       - name: jupyter-web-app
-        image: docker.io/lion0738/jupyter-web-app-ssh:v1.10.0
+        image: knu-kubeflow.duckdns.org:30500/jupyter-web-app-ssh:v1.10.0
         ports:
         - containerPort: 5000
         volumeMounts:
