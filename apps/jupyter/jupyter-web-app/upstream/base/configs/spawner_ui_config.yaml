@@ -37,13 +37,13 @@ spawnerFormDefaults:
   ################################################################
   image:
     # the default container image
-    value: knu-kubeflow.duckdns.org:30500/jupyter-scipy-ssh:v1.10.0
+    value: knu-kubeflow.duckdns.org:30500/kubeflow/jupyter-scipy-ssh:v1.10.0
 
     # the list of available container images in the dropdown
     options:
-    - knu-kubeflow.duckdns.org:30500/jupyter-scipy-ssh:v1.10.0
-    - knu-kubeflow.duckdns.org:30500/jupyter-pytorch-cuda-full-ssh:v1.10.0
-    - knu-kubeflow.duckdns.org:30500/jupyter-tensorflow-cuda-full-ssh:v1.10.0
+    - knu-kubeflow.duckdns.org:30500/kubeflow/upyter-scipy-ssh:v1.10.0
+    - knu-kubeflow.duckdns.org:30500/kubeflow/jupyter-pytorch-cuda-full-ssh:v1.10.0
+    - knu-kubeflow.duckdns.org:30500/kubeflow/jupyter-tensorflow-cuda-full-ssh:v1.10.0
 
   ################################################################
   # VSCode-like Container Images (Group 1)
@@ -58,11 +58,11 @@ spawnerFormDefaults:
   ################################################################
   imageGroupOne:
     # the default container image
-    value: knu-kubeflow.duckdns.org:30500/codeserver-python-ssh:v1.10.0
+    value: knu-kubeflow.duckdns.org:30500/kubeflow/codeserver-python-ssh:v1.10.0
 
     # the list of available container images in the dropdown
     options:
-    - knu-kubeflow.duckdns.org:30500/codeserver-python-ssh:v1.10.0
+    - knu-kubeflow.duckdns.org:30500/kubeflow/codeserver-python-ssh:v1.10.0
 
   ################################################################
   # RStudio-like Container Images (Group 2)
