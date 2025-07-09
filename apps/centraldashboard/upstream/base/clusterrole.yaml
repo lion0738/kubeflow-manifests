@@ -15,3 +15,21 @@ rules:
   - get
   - list
   - watch
+- apiGroups:
+  - ""
+  resources:
+  - secrets
+  verbs:
+  - get
+  - list
+  - create
+  - delete
+- apiGroups:
+  - "kubeflow.org"
+  resources:
+  - poddefaults
+  verbs:
+  - get
+  - list
+  - create
+  - delete
