@@ -43,6 +43,7 @@ spawnerFormDefaults:
     options:
     - harbor.knu-kubeflow.duckdns.org/kubeflow-images/upyter-scipy-ssh:v1.10.0
     - harbor.knu-kubeflow.duckdns.org/kubeflow-images/jupyter-pytorch-cuda-full-ssh:v1.10.0
+    - harbor.knu-kubeflow.duckdns.org/kubeflow-images/jupyter-pytorch-cuda-full-deepspeed-ssh:v1.10.0
     - harbor.knu-kubeflow.duckdns.org/kubeflow-images/jupyter-tensorflow-cuda-full-ssh:v1.10.0
 
   ################################################################
